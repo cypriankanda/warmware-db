@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,27 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        terminal: {
+          bg: "hsl(var(--terminal-bg))",
+          border: "hsl(var(--terminal-border))",
+          prompt: "hsl(var(--terminal-prompt))",
+          success: "hsl(var(--terminal-success))",
+          error: "hsl(var(--terminal-error))",
+          warning: "hsl(var(--terminal-warning))",
+        },
+        table: {
+          header: "hsl(var(--table-header))",
+          "row-hover": "hsl(var(--table-row-hover))",
+          stripe: "hsl(var(--table-stripe))",
+        },
+        sql: {
+          keyword: "hsl(var(--sql-keyword))",
+          string: "hsl(var(--sql-string))",
+          number: "hsl(var(--sql-number))",
+          function: "hsl(var(--sql-function))",
+          operator: "hsl(var(--sql-operator))",
+          comment: "hsl(var(--sql-comment))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -65,20 +90,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
