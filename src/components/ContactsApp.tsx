@@ -51,9 +51,12 @@ export const ContactsApp: React.FC = () => {
 
     if (initResult.success) {
       // Add sample data
-      db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Alice Johnson', 'alice@tech.io', '+1-555-0101', 'TechCorp')");
-      db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Bob Smith', 'bob@startup.com', '+1-555-0102', 'StartupXYZ')");
-      db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Carol Williams', 'carol@enterprise.net', '+1-555-0103', 'Enterprise Inc')");
+     db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Wanjiku Kamau', 'wanjiku@safaricom.co.ke', '+254-722-345678', 'Safaricom PLC')");
+db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('James Omondi', 'james@equitybank.co.ke', '+254-733-456789', 'Equity Bank')");
+db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Amina Hassan', 'amina@kplc.co.ke', '+254-700-567890', 'Kenya Power')");
+db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Peter Kipchoge', 'peter@kenyaairways.com', '+254-711-678901', 'Kenya Airways')");
+db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Grace Achieng', 'grace@kcb.co.ke', '+254-722-789012', 'KCB Bank')");
+db.execute("INSERT INTO contacts (name, email, phone, company) VALUES ('Mohamed Ali', 'mohamed@twiga.com', '+254-733-890123', 'Twiga Foods')");
     }
 
     refreshContacts();

@@ -14,7 +14,7 @@ const Index = () => {
           </div>
           <div>
             <h1 className="text-2xl font-bold tracking-tight">
-              <span className="text-primary">Mini</span>RDBMS
+              <span className="text-primary">Cyp-Mini</span>RDBMS
             </h1>
             <p className="text-sm text-muted-foreground">
               In-memory relational database with SQL support
@@ -85,7 +85,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="max-w-7xl mx-auto mt-12 pt-6 border-t border-border text-center text-sm text-muted-foreground">
         <p>
-          Built with React • Custom SQL Parser • B-Tree Indexes • In-Memory Storage
+          Built with React by Cyprian K • Custom SQL Parser • B-Tree Indexes • In-Memory Storage
         </p>
       </footer>
     </div>

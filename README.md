@@ -1,4 +1,4 @@
-# 🗄️ LovableDB — In-Memory Relational Database Management System
+# 🗄️ KandaDB — In-Memory Relational Database Management System
 
 <div align="center">
 
@@ -31,9 +31,9 @@
 
 ## 🎯 Overview
 
-LovableDB is a lightweight, educational relational database management system (RDBMS) implemented entirely in TypeScript. It runs in-memory within the browser and provides a complete SQL interface for creating tables, performing CRUD operations, and executing complex queries with JOINs.
+KandaDB is a lightweight, educational relational database management system (RDBMS) implemented entirely in TypeScript. It runs in-memory within the browser and provides a complete SQL interface for creating tables, performing CRUD operations, and executing complex queries with JOINs.
 
-### Why LovableDB?
+### Why KandaDB?
 
 - **Educational**: Understand how databases work under the hood
 - **Zero Dependencies**: Core engine has no external database dependencies
@@ -144,6 +144,10 @@ LovableDB is a lightweight, educational relational database management system (R
 
 ## 🏗️ Architecture
 
+
+![alt text](diagram.png)
+
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                      Application Layer                       │
@@ -201,7 +205,7 @@ LovableDB is a lightweight, educational relational database management system (R
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd lovable-rdbms
+cd kanda-rdbms
 
 # Install dependencies
 npm install
@@ -466,8 +470,14 @@ MIT License — feel free to use, modify, and distribute.
 
 ---
 
+## 👨‍💻 Author
+
+**Cyprian Kanda**
+
+---
+
 <div align="center">
 
-**Built with ❤️ using [Lovable](https://lovable.dev)**
+
 
 </div>
